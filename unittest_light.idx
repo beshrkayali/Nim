@@ -1,0 +1,2 @@
+mismatch	unittest_light.html#mismatch,T,T	unittest_light: mismatch[T](lhs: T; rhs: T): string	
+assertEquals	unittest_light.html#assertEquals,T,T	unittest_light: assertEquals[T](lhs: T; rhs: T)	

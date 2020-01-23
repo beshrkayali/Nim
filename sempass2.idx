@@ -1,0 +1,5 @@
+isTrue	sempass2.html#isTrue,PNode	sempass2: isTrue(n: PNode): bool	
+checkMethodEffects	sempass2.html#checkMethodEffects,ModuleGraph,PSym,PSym	sempass2: checkMethodEffects(g: ModuleGraph; disp, branch: PSym)	
+setEffectsForProcType	sempass2.html#setEffectsForProcType,ModuleGraph,PType,PNode	sempass2: setEffectsForProcType(g: ModuleGraph; t: PType; n: PNode)	
+trackProc	sempass2.html#trackProc,PContext,PSym,PNode	sempass2: trackProc(c: PContext; s: PSym; body: PNode)	
+trackTopLevelStmt	sempass2.html#trackTopLevelStmt,PContext,PSym,PNode	sempass2: trackTopLevelStmt(c: PContext; module: PSym; n: PNode)	

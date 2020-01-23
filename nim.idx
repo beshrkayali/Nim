@@ -1,0 +1,2 @@
+findNodeJs	nim.html#findNodeJs	nim: findNodeJs(): string	
+addCmdPrefix	nim.html#addCmdPrefix,string,CmdLineKind	nim: addCmdPrefix(result: var string; kind: CmdLineKind)	

@@ -1,0 +1,13 @@
+TBitSet	bitsets.html#TBitSet	bitsets: TBitSet	
+ElemSize	bitsets.html#ElemSize	bitsets: ElemSize	
+bitSetIn	bitsets.html#bitSetIn,seq[ElemType],BiggestInt	bitsets: bitSetIn(x: TBitSet; e: BiggestInt): bool	
+bitSetIncl	bitsets.html#bitSetIncl,seq[ElemType],BiggestInt	bitsets: bitSetIncl(x: var TBitSet; elem: BiggestInt)	
+bitSetExcl	bitsets.html#bitSetExcl,seq[ElemType],BiggestInt	bitsets: bitSetExcl(x: var TBitSet; elem: BiggestInt)	
+bitSetInit	bitsets.html#bitSetInit,seq[ElemType],int	bitsets: bitSetInit(b: var TBitSet; length: int)	
+bitSetUnion	bitsets.html#bitSetUnion,seq[ElemType],seq[ElemType]	bitsets: bitSetUnion(x: var TBitSet; y: TBitSet)	
+bitSetDiff	bitsets.html#bitSetDiff,seq[ElemType],seq[ElemType]	bitsets: bitSetDiff(x: var TBitSet; y: TBitSet)	
+bitSetSymDiff	bitsets.html#bitSetSymDiff,seq[ElemType],seq[ElemType]	bitsets: bitSetSymDiff(x: var TBitSet; y: TBitSet)	
+bitSetIntersect	bitsets.html#bitSetIntersect,seq[ElemType],seq[ElemType]	bitsets: bitSetIntersect(x: var TBitSet; y: TBitSet)	
+bitSetEquals	bitsets.html#bitSetEquals,seq[ElemType],seq[ElemType]	bitsets: bitSetEquals(x, y: TBitSet): bool	
+bitSetContains	bitsets.html#bitSetContains,seq[ElemType],seq[ElemType]	bitsets: bitSetContains(x, y: TBitSet): bool	
+bitSetCard	bitsets.html#bitSetCard,seq[ElemType]	bitsets: bitSetCard(x: TBitSet): BiggestInt	

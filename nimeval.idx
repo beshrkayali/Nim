@@ -1,0 +1,13 @@
+Interpreter	nimeval.html#Interpreter	nimeval: Interpreter	
+exportedSymbols	nimeval.html#exportedSymbols.i,Interpreter	nimeval: exportedSymbols(i: Interpreter): PSym	
+selectUniqueSymbol	nimeval.html#selectUniqueSymbol,Interpreter,string,set[TSymKind]	nimeval: selectUniqueSymbol(i: Interpreter; name: string;\n                   symKinds: set[TSymKind] = {skLet, skVar}): PSym	
+selectRoutine	nimeval.html#selectRoutine,Interpreter,string	nimeval: selectRoutine(i: Interpreter; name: string): PSym	
+callRoutine	nimeval.html#callRoutine,Interpreter,PSym,openArray[PNode]	nimeval: callRoutine(i: Interpreter; routine: PSym; args: openArray[PNode]): PNode	
+getGlobalValue	nimeval.html#getGlobalValue,Interpreter,PSym	nimeval: getGlobalValue(i: Interpreter; letOrVar: PSym): PNode	
+implementRoutine	nimeval.html#implementRoutine,Interpreter,string,string,string,proc(VmArgs)	nimeval: implementRoutine(i: Interpreter; pkg, module, name: string;\n                 impl: proc (a: VmArgs) {.closure, gcsafe.})	
+evalScript	nimeval.html#evalScript,Interpreter,PLLStream	nimeval: evalScript(i: Interpreter; scriptStream: PLLStream = nil)	
+findNimStdLib	nimeval.html#findNimStdLib	nimeval: findNimStdLib(): string	
+findNimStdLibCompileTime	nimeval.html#findNimStdLibCompileTime	nimeval: findNimStdLibCompileTime(): string	
+createInterpreter	nimeval.html#createInterpreter,string,openArray[string],TSandboxFlags	nimeval: createInterpreter(scriptName: string; searchPaths: openArray[string];\n                  flags: TSandboxFlags = {}): Interpreter	
+destroyInterpreter	nimeval.html#destroyInterpreter,Interpreter	nimeval: destroyInterpreter(i: Interpreter)	
+runRepl	nimeval.html#runRepl,TLLRepl,openArray[string],bool	nimeval: runRepl(r: TLLRepl; searchPaths: openArray[string]; supportNimscript: bool)	

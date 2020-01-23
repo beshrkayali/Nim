@@ -1,0 +1,2 @@
+returnsNewExpr	writetracking.html#returnsNewExpr,PNode	writetracking: returnsNewExpr(n: PNode): NewLocation	
+trackWrites	writetracking.html#trackWrites,PSym,PNode,ConfigRef	writetracking: trackWrites(owner: PSym; body: PNode; conf: ConfigRef)	

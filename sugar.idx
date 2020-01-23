@@ -1,0 +1,8 @@
+`=&gt;`	sugar.html#=>.m,untyped,untyped	sugar: `=&gt;`(p, b: untyped): untyped	
+`-&gt;`	sugar.html#->.m,untyped,untyped	sugar: `-&gt;`(p, b: untyped): untyped	
+dump	sugar.html#dump.m,typed	sugar: dump(x: typed): untyped	
+distinctBase	sugar.html#distinctBase.t,typedesc	sugar: distinctBase(T: typedesc): typedesc	
+capture	sugar.html#capture.m,openArray[typed],untyped	sugar: capture(locals: openArray[typed]; body: untyped): untyped	
+in-place	sugar.html#inminusplace_1	Module sugar	
+outplace	sugar.html#outplace.m,T,untyped,static[int]	sugar: outplace[T](arg: T; call: untyped; inplaceArgPosition: static[int] = 1): T	
+collect	sugar.html#collect.m,untyped,untyped	sugar: collect(init, body: untyped): untyped	
